@@ -21,6 +21,13 @@ int main()
       num+=10;
     }
   }
+  for(i=l;i>0;i--)
+  {
+    if(str[i]>str[i-1])
+    {
+      num-=2;
+    }
+  }
   printf("%d",num);
   return 0;
 }
