@@ -3,7 +3,7 @@
 int main(void) 
 {
 	char str1[50],str2[50];
-	int i,j,flag=1,u,v;
+	int i,j,flag=1,a,b;
 	scanf("%s %s",str1,str2);
 	int l1=strlen(str1);
 	int l2=strlen(str2);
@@ -13,9 +13,9 @@ int main(void)
 	{
 		for(j=i+1;j<l2;j++)
 		{
-			u=str1[i]-str1[j];
-			v=str2[i]-str2[j];
-			if(u==v)
+			a=str1[i]-str1[j];
+			b=str2[i]-str2[j];
+			if(a==b)
 			{
 				flag=0;
 			}
